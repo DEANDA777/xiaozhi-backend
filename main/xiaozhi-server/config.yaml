@@ -235,7 +235,7 @@ selected_module:
   # 语音识别模块，默认使用FunASR本地模型
   ASR: FunASR
   # 将根据配置名称对应的type调用实际的LLM适配器
-  LLM: ChatGLMLLM
+  LLM: GeminiLLM
   # 视觉语言大模型
   VLLM: ChatGLMVLLM
   # TTS将根据配置名称对应的type调用实际的TTS适配器
@@ -680,7 +680,7 @@ LLM:
     # 若在中国境内使用，请遵守《生成式人工智能服务管理暂行办法》
     # token申请地址： https://aistudio.google.com/apikey
     # 若部署地无法访问接口，需要开启科学上网
-    api_key: 你的gemini web key
+    api_key: "AQ.Ab8RN6Ie--sTrjDDXDZAaY7I-GdDzJdJ8SDH8e4PwQmogjRbAw"
     model_name: "gemini-2.0-flash"
     http_proxy: ""  #"http://127.0.0.1:10808"
     https_proxy: "" #http://127.0.0.1:10808"
